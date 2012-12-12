@@ -1,0 +1,17 @@
+Source: editobj2
+Section: python
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), python, python-support
+Standards-Version: 3.8.4
+Homepage: http://home.gna.org/oomadness/en/editobj/
+
+Package: python-editobj2
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: A Java-Bean-like dialog box generator for Python objects
+ EditObj 2 is a dialog box generator for Python objects ; it can 
+ work with Gtk2, Tk, Qt or Qtopia. It behaves similarly to a Java 
+ Bean editor, but is devoted to Python, and it features several 
+ improvements. In particular, EditObj2 can deal with tree structure 
+ in a very efficient way.
