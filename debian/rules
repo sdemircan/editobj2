@@ -5,7 +5,7 @@
 override_dh_auto_install:
 	dh_auto_install
 	mv debian/python-editobj2/usr/lib/$(shell pyversions -d)/*-packages/editobj2/icons/ debian/python-editobj2/usr/share/python-editobj2
-	rm -Rf debian/python-editobj/usr/lib/python*/*-packages/editobj2/icons/ 
+	rm -Rf debian/python-editobj2/usr/lib/python*/*-packages/editobj2/icons/ 
 
 .PHONY: override_dh_fixperms
 override_dh_fixperms:
